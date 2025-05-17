@@ -1,0 +1,22 @@
+/* Tingyu Style */
+
+/* Global */
+* {margin: 0; padding: 0; border: 0; outline: 0;}
+*,*:before,*:after {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+::selection {background: #f8e89b;} ::-moz-selection {background: #f8e89b;}
+body,input,button,select,textarea,.button {font-size: 100%; line-height: 1.5; color: #555; font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","PingFang SC","Heiti SC",sans-serif;}
+
+/*Main*/
+.wrapper-0 {display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh;}
+/*404*/
+.title-404 {font-size: 2em; color: #888;}
+.text-404 {font-size: 1.5em; color: #ccc;}
+
+/* Mobile */
+@media (max-width: 767px) { /*mobile*/
+	.wrapper-0 {height: 80vh;}
+	.title-404 {font-size: 1.5em;}
+}
+@media (min-width: 768px) { /*screen*/
+	
+}
